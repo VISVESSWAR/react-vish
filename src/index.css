@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+  display: grid;
+  width:60%;
+  margin:20%;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(207, 245, 247);
+  color: rgb(0, 0, 0);
+  margin-top: 10%;
+  border: 2px solid;
+}
+h1,h2{
+  display: flex;
+  justify-content: center;
+  border-bottom:0.2rem solid;
+  text-align: center;
+  color:rgb(0, 58, 139);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+.title{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.message{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start:1 ;
+  grid-column-end: 4;
+}
+ul .col1{
+  grid-row-start:3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end:2 ;
+  color: rgb(0, 58, 139);
+}
+ul .col2{
+  grid-row-start:3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: rgb(0, 58, 139);
+}
+ul .col3{
+  grid-row-start:3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  color: midnightblue;
+}
+
+/* li{
+  display: flex;
+  justify-content: space-around;
+} */
+
+
+button{
+  height: 2rem;
+  width:6rem;
+  border-radius: 1rem;
+  
+}
+.home{
+  margin-top: 5%;
+  margin-right:20%;
+  grid-column-start: 3;
+  grid-column-end:4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+}
+.add{
+  margin-left:60%
+}
+
+ .strike{
+  text-decoration:line-through;
+  color: rgb(215, 234, 47);
+ }
+
+ .newitem{
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    flex-direction: column;
+ }
+.edititem
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btnupspace{
+  margin-top:5%;
+}
+.btndownspace{
+margin-bottom: 3%;
+}
+/* div{
+  display: flex;
+  grid-template-rows: 1fr 1fr 5fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left:7.5%;
+  width:85%;
+  flex-direction: column;
+  grid-template-rows: 1fr 1fr minmax(2fr,10fr);
+  justify-content: space-around;
+} */
