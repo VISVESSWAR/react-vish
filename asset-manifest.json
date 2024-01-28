@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-vish/static/css/main.3ccbcf14.css",
+    "main.js": "/react-vish/static/js/main.41e93d02.js",
+    "index.html": "/react-vish/index.html",
+    "main.3ccbcf14.css.map": "/react-vish/static/css/main.3ccbcf14.css.map",
+    "main.41e93d02.js.map": "/react-vish/static/js/main.41e93d02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ccbcf14.css",
+    "static/js/main.41e93d02.js"
+  ]
+}
